@@ -37,22 +37,12 @@ npx kixx app-server --environment development
 ├── templates/
 │   └── templates/
 │       └── cfnp.html  # Custom CFNP template
-├── kixx-config.jsonc  # Kixx configuration
-└── kixx-docs/         # Framework documentation
+└── kixx-config.jsonc  # Kixx configuration
 ```
 
 ## Deployment
 
-See deployment guide in `kixx-docs/` for instructions on deploying to production.
-
-## Documentation
-
-Comprehensive Kixx framework documentation is available in the [`kixx-docs/`](./kixx-docs/) directory, including:
-
-- [Agent Reference](./kixx-docs/AGENT_REFERENCE.md) - Quick reference for AI assistants
-- [How-To Guides](./kixx-docs/how-to-guides/) - Step-by-step tutorials
-- [Conventions](./kixx-docs/conventions/) - File naming and project structure
-- [Troubleshooting](./kixx-docs/troubleshooting/) - Common errors and solutions
+This is a Node.js application that requires a VPS or PaaS hosting provider (Railway, Render, DigitalOcean, etc.). Shared hosting will not work.
 
 ## License
 
