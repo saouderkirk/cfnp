@@ -1,0 +1,22 @@
+{
+    // Kixx Configuration for CFNP Website
+    "server": {
+        // Railway provides PORT env variable, fallback to 3001 for local dev
+        "port": "${PORT:3001}",
+        "host": "0.0.0.0"
+    },
+    "environments": {
+        "production": {
+            "server": {
+                "port": "${PORT:3000}",
+                "host": "0.0.0.0"
+            }
+        },
+        "development": {
+            "server": {
+                "port": "3001",
+                "host": "localhost"
+            }
+        }
+    }
+}
