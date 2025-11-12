@@ -31,3 +31,11 @@ build/
 # Temporary files
 tmp/
 temp/
+
+# Claude Code settings
+.claude/
+
+# Project documentation (not needed in repo)
+KIXX_BUG_REPORT.md
+REDDIT_POST.md
+kixx-docs/
