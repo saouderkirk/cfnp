@@ -35,7 +35,38 @@ That's what we do.
 
 ## Who We Are
 
-We're a small team of product leaders who've built and scaled products at companies from early-stage startups to public tech companies. We've been VPs of Product, Chief Product Officers, and founding PMs. We've made the mistakes, learned the lessons, and figured out what actually works.
+We're a small team of experienced leaders who've built and scaled products at companies from early-stage startups to public tech companies. We've made the mistakes, learned the lessons, and figured out what actually works.
+
+<div class="team-grid">
+<div class="team-member">
+<div class="team-avatar">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"/><path d="M12 14c-6 0-8 3-8 6v2h16v-2c0-3-2-6-8-6z"/></svg>
+</div>
+<h4>Product & Operations Leadership</h4>
+<p>Slot in for head of product or CMO. Strategic vision meets hands-on execution.</p>
+</div>
+<div class="team-member">
+<div class="team-avatar">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"/><path d="M12 14c-6 0-8 3-8 6v2h16v-2c0-3-2-6-8-6z"/></svg>
+</div>
+<h4>Clinical Psychologist</h4>
+<p>Statistical modeling, survey design, speed time to insight.</p>
+</div>
+<div class="team-member">
+<div class="team-avatar">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"/><path d="M12 14c-6 0-8 3-8 6v2h16v-2c0-3-2-6-8-6z"/></svg>
+</div>
+<h4>Technical Architect</h4>
+<p>Deep coding chops. Inventor of Kixx. Builds systems that scale.</p>
+</div>
+<div class="team-member">
+<div class="team-avatar">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"/><path d="M12 14c-6 0-8 3-8 6v2h16v-2c0-3-2-6-8-6z"/></svg>
+</div>
+<h4>Project & Program Expert</h4>
+<p>Speed delivery, improve your org. Gets complex initiatives across the finish line.</p>
+</div>
+</div>
 
 ### What Makes Us Different
 
