@@ -72,6 +72,8 @@ We're a small team of experienced leaders who've built and scaled products at co
 
 **We've done the job.** We're not career consultants. We're product leaders who consult because we genuinely enjoy helping teams succeed. We've sat in your chair, dealt with your constraints, and navigated the same challenges.
 
+**We de-risk your executive hires.** Most companies hire a VP into a broken system, then wonder why it doesn't work. We fix the systematic problems first—building vision, strategy, OKRs, and cross-functional alignment with your existing team. Then hiring into that role becomes much less risky (or unnecessary).
+
 **We charge fairly.** Our pricing is transparent and reasonable. We're not trying to maximize billable hours or upsell you into yearlong retainers. We want to help, get paid fairly for our time, and move on when the work is done.
 
 **We tell the truth.** If we can't help, we'll say so. If your plan won't work, we'll tell you why. If you don't need a consultant, we'll be the first to admit it.
@@ -103,7 +105,7 @@ Instead, we:
 
 2. **Get specific.** We focus on your actual problems, not theoretical best practices that don't apply to your situation.
 
-3. **Work alongside you.** We don't disappear into a conference room and emerge with a deck. We collaborate with your team and share what we're thinking as we go.
+3. **Treat your org like a product.** We do discovery with your ICs and managers (the "customers"), understand what's actually broken, and build solutions WITH your team—not just for them. We're not gurus who disappear and come back with answers. We work alongside you.
 
 4. **Leave you stronger.** Our goal isn't to make you dependent on consultants. It's to help you build the capabilities to solve these problems yourself next time.
 

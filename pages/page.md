@@ -1,9 +1,9 @@
 <section class="hero">
 <div class="container">
 
-# Serious consulting for people who hate consultants.
+# Don't hire a VP until you talk to us.
 
-<p class="lead">High-impact strategy and execution support without corporate theater or inflated fees.</p>
+<p class="lead">We help tech companies (100-5000 employees) navigate their first scaling crisis—building the structures and alignment you need at a fraction of what McKinsey charges.</p>
 
 </div>
 </section>
@@ -66,11 +66,14 @@ You'll never hear us talk about "synergy" or "leveraging core competencies." We 
 
 ## Who We Work With
 
-We typically work with:
-- **Growing companies** (20-500 people) who need senior product leadership but aren't ready for a full-time hire
-- **Technical founders** building their first product organization
-- **Product teams** that need an experienced perspective on tough decisions
-- **Companies in transition** navigating pivots, reorganizations, or scaling challenges
+We work with tech companies (100-5000 employees) facing their first major scaling challenges:
+
+- **Your startup processes are breaking** - What worked for 7 people doesn't work for 70 or 700
+- **You need structure, not more chaos** - Vision, strategy, OKRs, cross-functional alignment across teams
+- **Hiring an exec is risky and expensive** - A bad VP hire costs you 12 months and hundreds of thousands of dollars
+- **Big consultancies deliver slide decks, not results** - You need embedded solutions, not theoretical frameworks
+
+We help you build the systems you need to scale, then make your executive hires into functioning organizations—not broken ones.
 
 </div>
 </section>
