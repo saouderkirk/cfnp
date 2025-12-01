@@ -1,9 +1,9 @@
 <section class="hero" id="hero-section">
 <div class="container">
 
-<h1 id="hero-headline">Don't hire a VP until you talk to us.</h1>
+<h1 id="hero-headline">Strategy without the slide decks.</h1>
 
-<p class="lead" id="hero-copy">We help tech companies (100-5000 employees) navigate their first scaling crisis—building the structures and alignment you need at a fraction of what the big firms charge.</p>
+<p class="lead" id="hero-copy">We treat your org like a product: do discovery with your team, understand what's broken, and build solutions WITH you—not just for you. No gurus, no corporate theater.</p>
 
 <div class="hero-controls">
     <button id="prev-hero" class="hero-nav-btn" aria-label="Previous">‹</button>

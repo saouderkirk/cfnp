@@ -362,11 +362,11 @@
 
             .hero-nav-btn {
                 background: transparent;
-                border: 2px solid #2c5f2d;
-                color: #2c5f2d;
+                border: 1px solid #d0d0d0;
+                color: #9a9a9a;
                 padding: 0.5rem 1rem;
                 border-radius: 6px;
-                font-weight: 700;
+                font-weight: 600;
                 cursor: pointer;
                 transition: all 0.2s ease;
                 font-size: 1.5rem;
@@ -374,9 +374,9 @@
             }
 
             .hero-nav-btn:hover {
-                background: #2c5f2d;
-                color: white;
-                transform: translateY(-2px);
+                border-color: #2c5f2d;
+                color: #2c5f2d;
+                transform: translateY(-1px);
             }
 
             .hero-indicators {
@@ -388,7 +388,7 @@
                 width: 12px;
                 height: 12px;
                 border-radius: 50%;
-                border: 2px solid #2c5f2d;
+                border: 2px solid #d0d0d0;
                 background: transparent;
                 cursor: pointer;
                 transition: all 0.2s ease;
@@ -396,7 +396,8 @@
             }
 
             .hero-indicator.active {
-                background: #2c5f2d;
+                background: #9a9a9a;
+                border-color: #9a9a9a;
             }
 
             .hero-indicator:hover {
@@ -525,16 +526,16 @@
             // Hero variants from page data
             const heroVariants = [
                 {
+                    headline: "Strategy without the slide decks.",
+                    copy: "We treat your org like a product: do discovery with your team, understand what's broken, and build solutions WITH you—not just for you. No gurus, no corporate theater."
+                },
+                {
                     headline: "Don't hire a VP until you talk to us.",
                     copy: "We help tech companies (100-5000 employees) navigate their first scaling crisis—building the structures and alignment you need at a fraction of what the big firms charge."
                 },
                 {
                     headline: "Build the system before you hire the executive.",
                     copy: "Most companies hire a VP into a broken system, then wonder why it doesn't work. We fix the problems first—then hiring becomes much less risky (or unnecessary)."
-                },
-                {
-                    headline: "Strategy without the slide decks.",
-                    copy: "We treat your org like a product: do discovery with your team, understand what's broken, and build solutions WITH you—not just for you. No gurus, no corporate theater."
                 }
             ];
 

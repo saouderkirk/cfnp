@@ -4,16 +4,16 @@
     "baseTemplateId": "cfnp.html",
     "heroVariants": [
         {
+            "headline": "Strategy without the slide decks.",
+            "copy": "We treat your org like a product: do discovery with your team, understand what's broken, and build solutions WITH you—not just for you. No gurus, no corporate theater."
+        },
+        {
             "headline": "Don't hire a VP until you talk to us.",
             "copy": "We help tech companies (100-5000 employees) navigate their first scaling crisis—building the structures and alignment you need at a fraction of what the big firms charge."
         },
         {
             "headline": "Build the system before you hire the executive.",
             "copy": "Most companies hire a VP into a broken system, then wonder why it doesn't work. We fix the problems first—then hiring becomes much less risky (or unnecessary)."
-        },
-        {
-            "headline": "Strategy without the slide decks.",
-            "copy": "We treat your org like a product: do discovery with your team, understand what's broken, and build solutions WITH you—not just for you. No gurus, no corporate theater."
         }
     ]
 }
