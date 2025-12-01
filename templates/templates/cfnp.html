@@ -542,16 +542,16 @@
                         const navTiming = perfEntries[0];
                         const loadTime = Math.round(navTiming.loadEventEnd);
                         if (loadTime > 0) {
-                            loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' ms</strong>';
+                            loadTimeEl.innerHTML = 'This page loaded in <strong>' + loadTime + ' ms</strong> - your time is valuable!';
                         } else {
                             // Fallback if loadEventEnd is still 0
                             const loadTime = Math.round(performance.now());
-                            loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' ms</strong>';
+                            loadTimeEl.innerHTML = 'This page loaded in <strong>' + loadTime + ' ms</strong> - your time is valuable!';
                         }
                     } else {
                         // Fallback to measuring from page start
                         const loadTime = Math.round(performance.now());
-                        loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' ms</strong>';
+                        loadTimeEl.innerHTML = 'This page loaded in <strong>' + loadTime + ' ms</strong> - your time is valuable!';
                     }
                 }, 100);
             });
