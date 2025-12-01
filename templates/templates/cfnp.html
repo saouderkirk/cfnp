@@ -351,6 +351,63 @@
                 line-height: 1.5;
             }
 
+            /* Hero Rotation Controls */
+            .hero-controls {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1.5rem;
+                margin-top: 2.5rem;
+            }
+
+            .hero-nav-btn {
+                background: transparent;
+                border: 2px solid #2c5f2d;
+                color: #2c5f2d;
+                padding: 0.5rem 1rem;
+                border-radius: 6px;
+                font-weight: 700;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                font-size: 1.5rem;
+                line-height: 1;
+            }
+
+            .hero-nav-btn:hover {
+                background: #2c5f2d;
+                color: white;
+                transform: translateY(-2px);
+            }
+
+            .hero-indicators {
+                display: flex;
+                gap: 0.75rem;
+            }
+
+            .hero-indicator {
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                border: 2px solid #2c5f2d;
+                background: transparent;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                padding: 0;
+            }
+
+            .hero-indicator.active {
+                background: #2c5f2d;
+            }
+
+            .hero-indicator:hover {
+                transform: scale(1.2);
+            }
+
+            #hero-headline,
+            #hero-copy {
+                transition: opacity 0.3s ease;
+            }
+
             @media (max-width: 768px) {
                 h1 {
                     font-size: 2.25rem;
@@ -411,6 +468,24 @@
                     width: 50px;
                     height: 50px;
                 }
+
+                .hero-controls {
+                    gap: 1rem;
+                }
+
+                .hero-nav-btn {
+                    padding: 0.4rem 0.8rem;
+                    font-size: 1.3rem;
+                }
+
+                .hero-indicators {
+                    gap: 0.5rem;
+                }
+
+                .hero-indicator {
+                    width: 10px;
+                    height: 10px;
+                }
             }
         </style>
     </head>
@@ -435,5 +510,105 @@
                 <p>&copy; 2025 Consulting for Normal People. Made with <a href="https://www.kixx.dev">Kixx</a>.</p>
             </div>
         </footer>
+
+        <script>
+        (function() {
+            const heroSection = document.getElementById('hero-section');
+            if (!heroSection) return;
+
+            const heroHeadline = document.getElementById('hero-headline');
+            const heroCopy = document.getElementById('hero-copy');
+            const indicators = document.querySelectorAll('.hero-indicator');
+            const prevBtn = document.getElementById('prev-hero');
+            const nextBtn = document.getElementById('next-hero');
+
+            // Hero variants from page data
+            const heroVariants = [
+                {
+                    headline: "Don't hire a VP until you talk to us.",
+                    copy: "We help tech companies (100-5000 employees) navigate their first scaling crisis—building the structures and alignment you need at a fraction of what the big firms charge."
+                },
+                {
+                    headline: "Build the system before you hire the executive.",
+                    copy: "Most companies hire a VP into a broken system, then wonder why it doesn't work. We fix the problems first—then hiring becomes much less risky (or unnecessary)."
+                },
+                {
+                    headline: "Strategy without the slide decks.",
+                    copy: "We treat your org like a product: do discovery with your team, understand what's broken, and build solutions WITH you—not just for you. No gurus, no corporate theater."
+                }
+            ];
+
+            let currentIndex = 0;
+            let autoRotateInterval = null;
+
+            const updateHero = (index) => {
+                // Fade out
+                heroHeadline.style.opacity = '0';
+                heroCopy.style.opacity = '0';
+
+                setTimeout(() => {
+                    // Update content
+                    const variant = heroVariants[index];
+                    heroHeadline.textContent = variant.headline;
+                    heroCopy.textContent = variant.copy;
+
+                    // Update indicators
+                    indicators.forEach((indicator, i) => {
+                        indicator.classList.toggle('active', i === index);
+                    });
+
+                    // Fade in
+                    heroHeadline.style.opacity = '1';
+                    heroCopy.style.opacity = '1';
+                }, 300);
+
+                currentIndex = index;
+            };
+
+            const nextHero = () => {
+                updateHero((currentIndex + 1) % heroVariants.length);
+                resetAutoRotate();
+            };
+
+            const prevHero = () => {
+                updateHero((currentIndex - 1 + heroVariants.length) % heroVariants.length);
+                resetAutoRotate();
+            };
+
+            const startAutoRotate = () => {
+                autoRotateInterval = setInterval(() => {
+                    nextHero();
+                }, 6000); // Rotate every 6 seconds
+            };
+
+            const resetAutoRotate = () => {
+                clearInterval(autoRotateInterval);
+                startAutoRotate();
+            };
+
+            // Event listeners
+            if (prevBtn) prevBtn.addEventListener('click', prevHero);
+            if (nextBtn) nextBtn.addEventListener('click', nextHero);
+
+            indicators.forEach((indicator, index) => {
+                indicator.addEventListener('click', () => {
+                    updateHero(index);
+                    resetAutoRotate();
+                });
+            });
+
+            // Start auto-rotation
+            startAutoRotate();
+
+            // Pause auto-rotation when user hovers over hero section
+            heroSection.addEventListener('mouseenter', () => {
+                clearInterval(autoRotateInterval);
+            });
+
+            heroSection.addEventListener('mouseleave', () => {
+                startAutoRotate();
+            });
+        })();
+        </script>
     </body>
 </html>
