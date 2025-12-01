@@ -1,9 +1,19 @@
-<section class="hero">
+<section class="hero" id="hero-section">
 <div class="container">
 
-# Don't hire a VP until you talk to us.
+<h1 id="hero-headline">Don't hire a VP until you talk to us.</h1>
 
-<p class="lead">We help tech companies (100-5000 employees) navigate their first scaling crisis—building the structures and alignment you need at a fraction of what the big firms charge.</p>
+<p class="lead" id="hero-copy">We help tech companies (100-5000 employees) navigate their first scaling crisis—building the structures and alignment you need at a fraction of what the big firms charge.</p>
+
+<div class="hero-controls">
+    <button id="prev-hero" class="hero-nav-btn" aria-label="Previous">‹</button>
+    <div class="hero-indicators">
+        <button class="hero-indicator active" data-index="0" aria-label="Variant 1"></button>
+        <button class="hero-indicator" data-index="1" aria-label="Variant 2"></button>
+        <button class="hero-indicator" data-index="2" aria-label="Variant 3"></button>
+    </div>
+    <button id="next-hero" class="hero-nav-btn" aria-label="Next">›</button>
+</div>
 
 </div>
 </section>
