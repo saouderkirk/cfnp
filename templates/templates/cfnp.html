@@ -540,12 +540,12 @@
                 const perfEntries = performance.getEntriesByType('navigation');
                 if (perfEntries.length > 0) {
                     const navTiming = perfEntries[0];
-                    const loadTime = (navTiming.loadEventEnd / 1000).toFixed(2);
-                    loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' seconds</strong>';
+                    const loadTime = Math.round(navTiming.loadEventEnd);
+                    loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' ms</strong>';
                 } else {
                     // Fallback to measuring from page start
-                    const loadTime = (performance.now() / 1000).toFixed(2);
-                    loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' seconds</strong>';
+                    const loadTime = Math.round(performance.now());
+                    loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' ms</strong>';
                 }
             });
         })();
