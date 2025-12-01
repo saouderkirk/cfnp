@@ -32,17 +32,35 @@ npx kixx app-server --environment development
 ├── pages/              # Page content and metadata
 │   ├── page.jsonc     # Homepage metadata
 │   ├── page.md        # Homepage content
-│   ├── about.jsonc    # About page metadata
-│   └── about.md       # About page content
+│   └── about/         # About page (subdirectory structure)
+│       ├── page.jsonc # About page metadata
+│       └── page.md    # About page content
 ├── templates/
 │   └── templates/
 │       └── cfnp.html  # Custom CFNP template
 └── kixx-config.jsonc  # Kixx configuration
 ```
 
+## Kixx Documentation
+
+This project contributed to comprehensive Kixx framework documentation created during development.
+
+**👉 [Kixx Community Docs](https://github.com/saouderkirk/kixx-community-docs)**
+
+The documentation includes:
+- Quick reference for AI coding assistants
+- Critical conventions and gotchas
+- Deployment guides (Railway, Render, VPS)
+- Troubleshooting common errors
+- Real-world examples
+
+Perfect for developers new to Kixx or AI agents needing context about the framework.
+
 ## Deployment
 
 This is a Node.js application that requires a VPS or PaaS hosting provider (Railway, Render, DigitalOcean, etc.). Shared hosting will not work.
+
+**Live site**: [consultingfornormalpeople.com](https://consultingfornormalpeople.com)
 
 ## License
 
