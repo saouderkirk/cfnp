@@ -534,17 +534,26 @@
             if (!loadTimeEl) return;
 
             window.addEventListener('load', function() {
-                // Use modern Performance API
-                const perfEntries = performance.getEntriesByType('navigation');
-                if (perfEntries.length > 0) {
-                    const navTiming = perfEntries[0];
-                    const loadTime = Math.round(navTiming.loadEventEnd);
-                    loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' ms</strong>';
-                } else {
-                    // Fallback to measuring from page start
-                    const loadTime = Math.round(performance.now());
-                    loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' ms</strong>';
-                }
+                // Small delay to ensure timing is captured
+                setTimeout(function() {
+                    // Use modern Performance API
+                    const perfEntries = performance.getEntriesByType('navigation');
+                    if (perfEntries.length > 0) {
+                        const navTiming = perfEntries[0];
+                        const loadTime = Math.round(navTiming.loadEventEnd);
+                        if (loadTime > 0) {
+                            loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' ms</strong>';
+                        } else {
+                            // Fallback if loadEventEnd is still 0
+                            const loadTime = Math.round(performance.now());
+                            loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' ms</strong>';
+                        }
+                    } else {
+                        // Fallback to measuring from page start
+                        const loadTime = Math.round(performance.now());
+                        loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' ms</strong>';
+                    }
+                }, 100);
             });
         })();
 
