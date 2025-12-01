@@ -3,7 +3,7 @@
 
 # Don't hire a VP until you talk to us.
 
-<p class="lead">We help tech companies (100-5000 employees) navigate their first scaling crisis—building the structures and alignment you need at a fraction of what McKinsey charges.</p>
+<p class="lead">We help tech companies (100-5000 employees) navigate their first scaling crisis—building the structures and alignment you need at a fraction of what the big firms charge.</p>
 
 </div>
 </section>
