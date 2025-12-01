@@ -308,6 +308,22 @@
                 border-bottom: 1px solid #2c5f2d;
             }
 
+            .load-time {
+                margin-top: 1rem;
+                padding: 0.75rem 1.25rem;
+                background: #ffffff;
+                border: 1px solid #e5e5e5;
+                border-radius: 6px;
+                font-size: 0.85rem;
+                color: #6a6a6a;
+                display: inline-block;
+            }
+
+            .load-time strong {
+                color: #2c5f2d;
+                font-weight: 600;
+            }
+
             /* Team Grid */
             .team-grid {
                 display: grid;
@@ -509,10 +525,24 @@
         <footer class="site-footer">
             <div class="container">
                 <p>&copy; 2025 Consulting for Normal People. Made with <a href="https://www.kixx.dev">Kixx</a>.</p>
+                <div class="load-time" id="load-time">Measuring page load time...</div>
             </div>
         </footer>
 
         <script>
+        // Page load time measurement
+        (function() {
+            const loadTimeEl = document.getElementById('load-time');
+            if (!loadTimeEl) return;
+
+            window.addEventListener('load', function() {
+                const perfData = window.performance.timing;
+                const loadTime = ((perfData.loadEventEnd - perfData.navigationStart) / 1000).toFixed(2);
+                loadTimeEl.innerHTML = 'This page just loaded in <strong>' + loadTime + ' seconds</strong>';
+            });
+        })();
+
+        // Hero rotation
         (function() {
             const heroSection = document.getElementById('hero-section');
             if (!heroSection) return;
