@@ -60,12 +60,18 @@ You'll never hear us talk about "synergy" or "leveraging core competencies." We 
 ### Trusted by forward-thinking companies
 
 <div class="logo-grid">
-<div class="logo-placeholder">Acme Corp</div>
-<div class="logo-placeholder">TechFlow</div>
-<div class="logo-placeholder">Innovate Labs</div>
-<div class="logo-placeholder">Peak Ventures</div>
-<div class="logo-placeholder">Bright Solutions</div>
-<div class="logo-placeholder">Atlas Group</div>
+<div class="client-logo">
+<img src="https://www.ypulse.com/wp-content/uploads/2022/09/ypulse-logo-lettering-1-300x57.png" alt="YPulse" />
+</div>
+<div class="client-logo">
+<img src="https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/326727704_1452011972218941_8627995147956062739_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=NdPvPpLo4nkQ7kNvwGMt8C6&_nc_oc=AdnwvPxmO0rCRu8Z0jMTPeFmOYuXJN6RypjvDi8oEwVVP565ZN5kmIEcOegC-jPnR0kaaZxgNvzIQJZtpkeTJyMo&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=ts-xgcWO9UpUJDGwUwj3cw&oh=00_Afm7r4N53zaMFgqEVu-a0KmhJF3eMFdyynRhCupJl--oRQ&oe=69348BE4" alt="ShowX" />
+</div>
+<div class="client-logo">
+<img src="https://images.squarespace-cdn.com/content/v1/674774e95d92814e89fc20b1/a51c4368-cc1b-470d-8ea2-1e9e13f09aeb/OFFICIAL+NB.png" alt="Kenya Education Fund" />
+</div>
+<div class="client-logo">
+<img src="https://www.parabol.co/wp-content/uploads/2022/01/Parabol_Avatar_Reversed.png" alt="Parabol" />
+</div>
 </div>
 
 </div>
