@@ -70,7 +70,7 @@ You'll never hear us talk about "synergy" or "leveraging core competencies." We 
 <img src="https://images.squarespace-cdn.com/content/v1/674774e95d92814e89fc20b1/a51c4368-cc1b-470d-8ea2-1e9e13f09aeb/OFFICIAL+NB.png" alt="Kenya Education Fund" />
 </div>
 <div class="client-logo">
-<img src="https://www.parabol.co/wp-content/uploads/2022/01/Parabol_Avatar_Reversed.png" alt="Parabol" />
+<img src="https://www.parabol.co/wp-content/uploads/2022/02/parabol-logo.png" alt="Parabol" />
 </div>
 </div>
 
