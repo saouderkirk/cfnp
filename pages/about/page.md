@@ -49,8 +49,8 @@ We're a trio of practitioners who've done the job, not theorists selling framewo
 <div class="team-avatar">
 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"/><path d="M12 14c-6 0-8 3-8 6v2h16v-2c0-3-2-6-8-6z"/></svg>
 </div>
-<h4>Behavioral Research & Customer Insight</h4>
-<p>PhD clinical psychologist with deep expertise in behavioral science, cognition, and research design. They design discovery systems that are rigorous, replicable, and rooted in science—not gut feelings. Multiple startups rely on their expertise to truly understand their users.</p>
+<h4>Dr. Casey Schofield — Behavioral Research & Customer Insight</h4>
+<p>PhD clinical psychologist with deep expertise in behavioral science, cognition, and research design. Casey designs discovery systems that are rigorous, replicable, and rooted in science—not gut feelings. Multiple startups rely on their expertise to truly understand their users.</p>
 </div>
 <div class="team-member">
 <div class="team-avatar">
