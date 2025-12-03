@@ -3,7 +3,7 @@
 
 # About Consulting for Normal People
 
-<p class="lead">We're product leaders who got tired of watching consultants overcomplicate simple problems and overcharge for slide decks.</p>
+<p class="lead">We're a trio of practitioners—product leadership, behavioral research, engineering—who got tired of watching consultants overcomplicate simple problems and overcharge for slide decks.</p>
 
 </div>
 </section>
@@ -23,9 +23,9 @@ CFNP started after one too many conversations that went like this:
 
 **Typical Consultant**: "That'll be $200,000."
 
-We knew there had to be a better way. Consulting doesn't have to mean months of discovery sessions and decks full of buzzwords. Sometimes you just need an experienced person to sit down with your team, understand the problem, and help you move forward.
+We knew there had to be a better way. Consulting doesn't have to mean months of discovery sessions and decks full of buzzwords. Sometimes you just need experienced people who can discover the truth, set the direction, and—if needed—build the first version with you.
 
-That's what we do.
+That's what we do. And we do it as a team.
 
 </div>
 </section>
@@ -35,42 +35,37 @@ That's what we do.
 
 ## Who We Are
 
-We're a small team of experienced leaders who've built and scaled products at companies from early-stage startups to public tech companies. We've made the mistakes, learned the lessons, and figured out what actually works.
+We're a trio of practitioners who've done the job, not theorists selling frameworks. We've built products, scaled teams, run research, and shipped code at companies from early-stage startups to public tech companies.
 
 <div class="team-grid">
 <div class="team-member">
 <div class="team-avatar">
 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"/><path d="M12 14c-6 0-8 3-8 6v2h16v-2c0-3-2-6-8-6z"/></svg>
 </div>
-<h4>Product & Operations Leadership</h4>
-<p>Slot in for head of product or CMO. Strategic vision meets hands-on execution.</p>
+<h4>Simon Ouderkirk — Product Leadership & Scaling</h4>
+<p>GM-style product leadership, org design, fractional CPO work. Simon has scaled teams from startup chaos to functioning product organizations. He's sat in the chair, dealt with the constraints, and knows what breaks when you go from 7 people to 700.</p>
 </div>
 <div class="team-member">
 <div class="team-avatar">
 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"/><path d="M12 14c-6 0-8 3-8 6v2h16v-2c0-3-2-6-8-6z"/></svg>
 </div>
-<h4>Clinical Psychologist</h4>
-<p>Statistical modeling, survey design, speed time to insight.</p>
+<h4>Behavioral Research & Customer Insight</h4>
+<p>PhD clinical psychologist with deep expertise in behavioral science, cognition, and research design. They design discovery systems that are rigorous, replicable, and rooted in science—not gut feelings. Multiple startups rely on their expertise to truly understand their users.</p>
 </div>
 <div class="team-member">
 <div class="team-avatar">
 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"/><path d="M12 14c-6 0-8 3-8 6v2h16v-2c0-3-2-6-8-6z"/></svg>
 </div>
-<h4>Technical Architect</h4>
-<p>Deep coding chops. Inventor of Kixx. Builds systems that scale.</p>
-</div>
-<div class="team-member">
-<div class="team-avatar">
-<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"/><path d="M12 14c-6 0-8 3-8 6v2h16v-2c0-3-2-6-8-6z"/></svg>
-</div>
-<h4>Project & Program Expert</h4>
-<p>Speed delivery, improve your org. Gets complex initiatives across the finish line.</p>
+<h4>Kris Walker — Engineering & Prototyping</h4>
+<p>Full-stack engineer, product-minded technical leader, inventor of the Kixx framework. Kris builds rapid prototypes, MVPs, and internal tools that move at the speed of decisions. Architecture reviews, developer experience, AI-powered automation—he turns strategy into working code.</p>
 </div>
 </div>
 
 ### What Makes Us Different
 
-**We've done the job.** We're not career consultants. We're product leaders who consult because we genuinely enjoy helping teams succeed. We've sat in your chair, dealt with your constraints, and navigated the same challenges.
+**We're the rare combination.** No other boutique consultancy offers product strategy + scientific research + engineering execution in one team. Most firms give you slide decks. We give you insight, direction, and working prototypes.
+
+**We've done the job.** We're not career consultants. We're practitioners who consult because we genuinely enjoy helping teams succeed. We've sat in your chair, dealt with your constraints, and navigated the same challenges.
 
 **We de-risk your executive hires.** Most companies hire a VP into a broken system, then wonder why it doesn't work. We fix the systematic problems first—building vision, strategy, OKRs, and cross-functional alignment with your existing team. Then hiring into that role becomes much less risky (or unnecessary).
 
