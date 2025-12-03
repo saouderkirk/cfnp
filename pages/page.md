@@ -1,9 +1,9 @@
 <section class="hero" id="hero-section">
 <div class="container">
 
-<h1 id="hero-headline">Strategy without the slide decks.</h1>
+<h1 id="hero-headline">Strategy without the theater.</h1>
 
-<p class="lead" id="hero-copy">We treat your org like a product: do discovery with your team, understand what's broken, and build solutions WITH you—not just for you. No gurus, no corporate theater.</p>
+<p class="lead" id="hero-copy">A multidisciplinary product leadership studio that helps scaling companies understand their customers, set the right direction, and build what matters.</p>
 
 <div class="hero-controls">
     <button id="prev-hero" class="hero-nav-btn" aria-label="Previous">‹</button>
@@ -23,22 +23,28 @@
 
 ## What We Do
 
-Helpful, human, sensibly priced product advising and leadership has become challenging to find. We fix that.
+You don't need another consultant telling you what you already know. You need a team that discovers the truth, sets the direction, and—if needed—builds the first version with you.
 
-### Strategic Guidance
-Real results from real professionals with real experience. Not every firm needs a full-time Chief Product Officer, and not every leadership team sees hundreds of thousands of dollars of value in a slide deck.
+### Insight & Discovery
+**Behavioral research that actually informs decisions.**
 
-We help you figure out what to build, why it matters, and how to get there. No frameworks for framework's sake. No all-hands decks that say nothing. Just clear thinking and practical advice that moves your business forward.
+We don't just run interviews and write summaries. We design research that's rigorous, replicable, and rooted in behavioral science. Customer segmentation, survey design, decision-grade insights—all delivered by a PhD clinical psychologist who's advised multiple startups on discovery practice.
 
-### Execution Support
-We roll up our sleeves and work alongside your team. No hand-waving, no disappearing after the presentation. We help you get things done.
+Most teams guess what their customers want. We help you know.
 
-Whether you need someone to unblock a stuck initiative, coach a growing product team, or just be an extra pair of hands for a critical quarter, we're in it with you. We integrate with your team, not lecture from the sidelines.
+### Strategy & Scaling
+**Product leadership without the executive hire.**
 
-### Plain Talk
-We speak human, not consultant. Transparent pricing, honest assessments, and actionable advice. No jargon, no BS.
+Vision, roadmap, OKRs, cross-functional alignment—all the things that break when you go from 7 people to 70 or 700. We slot in as fractional product leadership, fix the systematic problems, and build the structures you need to scale.
 
-You'll never hear us talk about "synergy" or "leveraging core competencies." We say what we mean. If something's not working, we'll tell you. If we don't know, we'll tell you that too.
+Then hiring a VP becomes much less risky (or unnecessary).
+
+### Execution & Prototyping
+**Engineering that moves as fast as you think.**
+
+Rapid prototypes, MVPs, internal tools, architecture reviews—we build what you need to validate ideas, unblock teams, or automate workflows. Full-stack engineering led by someone who's invented frameworks and shipped products.
+
+Strategy is worthless if you can't execute. We do both.
 
 </div>
 </section>
@@ -50,6 +56,24 @@ You'll never hear us talk about "synergy" or "leveraging core competencies." We 
 "Working with CFNP was like having a seasoned product leader drop into our team exactly when we needed it. No fluff, no PowerPoints full of buzzwords—just practical guidance that actually moved the needle."
 <cite>— Sarah Chen, VP of Engineering at TechFlow</cite>
 </blockquote>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+## The Team
+
+We're a trio of practitioners who've done the job, not theorists selling frameworks.
+
+**Product Leadership & Scaling** — Simon brings GM-style product leadership, org design, and fractional CPO work. He's scaled teams from startup chaos to functioning product organizations.
+
+**Behavioral Research & Insight** — Our PhD clinical psychologist designs rigorous discovery systems, customer segmentation, and survey methodology. Multiple startups rely on their expertise to truly understand users.
+
+**Engineering & Prototyping** — Kris is a full-stack engineer who's invented frameworks (Kixx), built products, and knows how to turn strategy into working code fast.
+
+Together, we're the rare combination of insight, strategy, and execution that most consultancies can't offer.
 
 </div>
 </section>
@@ -82,14 +106,15 @@ You'll never hear us talk about "synergy" or "leveraging core competencies." We 
 
 ## Who We Work With
 
-We work with tech companies (100-5000 employees) facing their first major scaling challenges:
+We work with tech companies (100-5000 employees) hitting the "everything is breaking" moment:
 
-- **Your startup processes are breaking** - What worked for 7 people doesn't work for 70 or 700
-- **You need structure, not more chaos** - Vision, strategy, OKRs, cross-functional alignment across teams
-- **Hiring an exec is risky and expensive** - A bad VP hire costs you 12 months and hundreds of thousands of dollars
-- **Big consultancies deliver slide decks, not results** - You need embedded solutions, not theoretical frameworks
+- **Your startup processes don't scale** - What worked for 7 people fails at 70 or 700
+- **You're guessing what customers want** - Interviews are messy, surveys are broken, and you need real insight
+- **Hiring a VP is risky and expensive** - A bad executive hire costs 12 months and hundreds of thousands of dollars
+- **You need to build fast, not just strategize** - MVPs, prototypes, and internal tools that move at the speed of decisions
+- **Big consultancies deliver slide decks, not results** - You need people who can discover, decide, and build with you
 
-We help you build the systems you need to scale, then make your executive hires into functioning organizations—not broken ones.
+We're the trio that gives you insight, strategy, and execution—without the corporate theater.
 
 </div>
 </section>
